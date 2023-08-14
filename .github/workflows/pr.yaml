@@ -2,7 +2,7 @@ on:
   pull_request:
 
 jobs:
-  build-test-publish:
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
