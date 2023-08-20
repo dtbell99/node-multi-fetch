@@ -1,0 +1,40 @@
+{
+  "name": "@dtbell99/node-multi-fetch",
+  "version": "1.0.0",
+  "description": "Utility to fetch multiple items at once and return the results",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
+    "test": "jest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtbell99/node-multi-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "url",
+    "https",
+    "async",
+    "node",
+    "typescript"
+  ],
+  "author": "David Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtbell99/node-multi-fetch/issues"
+  },
+  "homepage": "https://github.com/dtbell99/node-multi-fetch#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2",
+    "rimraf": "^5.0.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
